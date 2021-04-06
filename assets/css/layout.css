@@ -5,11 +5,11 @@
 [class*="col-"] {
     padding: 16px;
 }
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
-}
-.col-3 {
+} */
+/* .col-3 {
     width: 25%;
 }
 .col-4 {
@@ -20,5 +20,22 @@
 }
 .col-8 {
     width: 66%;
+} */
+
+
+/* medium devices */
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
 }
 
+@media (min-width: 900px) {
+    .col-lg-4 {
+        width: 33%;
+    }
+}
