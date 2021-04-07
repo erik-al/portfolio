@@ -14,3 +14,19 @@
     padding: 10px 20px;
     display: inline-block;
 }
+/* Progress bar */
+.progress-container {
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.progress {
+    height: 0.5rem;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+.progress.percent-80 {
+    width: 80%;
+}
+.progress.percent-70 {
+    width: 70%;
+}

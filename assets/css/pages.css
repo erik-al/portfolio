@@ -24,3 +24,11 @@
     position: absolute;
     top: -50px;
 }
+.vertical-line {
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    background-color: #A9B1EA;
+}

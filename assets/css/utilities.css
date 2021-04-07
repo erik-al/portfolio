@@ -4,21 +4,40 @@
 .align-items-center {
     align-items: center;
 }
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
 .min-w-100-vh {
     min-height: 100vh;
 }
 .font-weight-500 {
     font-weight: 500;
 }
+/* Spaces */
 .space-top {
     margin-top: 10px;
+}
+.space-top-lg {
+    margin-top: 30px;
 }
 .margin-0 {
     margin: 0!important;
 }
+/* Fonts */
 .text-primary {
     color: #293DCB;
 }
 .text-secondary {
     color: #919191;
+}
+.text-center {
+    text-align: center;
+}
+
+/* Position */
+.position-relative {
+    position: relative;
 }
